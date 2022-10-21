@@ -8,14 +8,14 @@ from telethon.sync import TelegramClient
 
 
 def main():
-    print("T E A M    W A R B O T   ! !")
-    print("Hello!! Welcome to WaruserBot Session Generator\n")
+    print("T E A M    R E Z O X B O T   ! !")
+    print("Hello!! Welcome to RezoxBot Session Generator\n")
     print("Human Verification Required !!")
     while True:
         verify = int(randint(1, 50))
         okvai = int(input(f"Enter {verify} to continue: "))
         if okvai == verify:
-            print("\nChoose the string session type: \n1. WaruserBot (Telethon) \n2. Music Bot (Pyrogram) \n3. Instagram Session")
+            print("\nChoose the string session type: \n1. RezoxBot (Telethon) \n2. Music Bot (Pyrogram) \n3. Instagram Session")
             while True:
                 library = input("\nYour Choice: ")
                 if library == "1":
@@ -39,10 +39,10 @@ def generate_pyro_session():
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
     with PClient(':memory:', api_id=APP_ID, api_hash=API_HASH) as hellbot:
-        print("\nYour WaruserBot Session Is sent in your Telegram Saved Messages.")
+        print("\nYour RezoxBot Session Is sent in your Telegram Saved Messages.")
         hellbot.send_message(
             "me",
-            f"#WarUserBOT_MUSIC #WARUSERBOT_SESSION #PYROGRAM\n\n`{hellbot.export_session_string()}`",
+            f"#RezoxBOT_MUSIC #REZOXBOT_SESSION #PYROGRAM\n\n`{hellbot.export_session_string()}`",
         )
 
 
@@ -51,10 +51,10 @@ def generate_telethon_session():
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
     with TelegramClient(StringSession(), APP_ID, API_HASH) as hellbot:
-        print("\nYour WarUserBot Session Is sent in your Telegram Saved Messages.")
+        print("\nYour RezoxBot Session Is sent in your Telegram Saved Messages.")
         hellbot.send_message(
             "me",
-            f"#WARUSERBOT #WARBOT_SESSION #TELETHON \n\n`{hellbot.session.save()}`",
+            f"#REZOXBOT #REZOXBOT_SESSION #TELETHON \n\n`{hellbot.session.save()}`",
         )
 
 
