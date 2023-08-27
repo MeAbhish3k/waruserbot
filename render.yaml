@@ -22,6 +22,6 @@ services:
         sync: false
       - key: DATABASE_URL
         sync: false
-      - PYTHON_VERSION
+      - key: PYTHON_VERSION
         sync: false
     autoDeploy: false
