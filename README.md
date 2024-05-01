@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/7b3fe6a6a6945ab4d41da.jpg" width="20%" alt="WarUserBot Image">
+  <img src="[https://telegra.ph/file/7b3fe6a6a6945ab4d41da.jpg](https://telegra.ph/file/cad7038fe82e47f79c609.jpg)" width="20%" alt="WarUserBot Image">
 </p>
 
-<h1 align="center">𝙒𝙖𝙧𝙐𝙨𝙚𝙧𝘽𝙤𝙩 {🇮🇳}</h1>
+<h1 align="center">𝗧𝗵𝘂𝗻𝗱𝗲𝗿𝘅𝗯𝗼𝘁𝘇 {🇮🇳}</h1>
 
 <p align="center">The owner would not be responsible for any kind of bans due to the bot.</p>
 
